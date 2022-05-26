@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89759767283E2BD100DF9B50 /* contentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89759766283E2BD100DF9B50 /* contentViewModel.swift */; };
 		8997377E283BA9D000A4BB46 /* mapSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8997377D283BA9D000A4BB46 /* mapSwiftUIApp.swift */; };
 		89973780283BA9D000A4BB46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8997377F283BA9D000A4BB46 /* ContentView.swift */; };
 		89973782283BA9D200A4BB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89973781283BA9D200A4BB46 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89759766283E2BD100DF9B50 /* contentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentViewModel.swift; sourceTree = "<group>"; };
 		8997377A283BA9D000A4BB46 /* mapSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8997377D283BA9D000A4BB46 /* mapSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSwiftUIApp.swift; sourceTree = "<group>"; };
 		8997377F283BA9D000A4BB46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				8997377F283BA9D000A4BB46 /* ContentView.swift */,
 				89973781283BA9D200A4BB46 /* Assets.xcassets */,
 				89973783283BA9D200A4BB46 /* Preview Content */,
+				89759766283E2BD100DF9B50 /* contentViewModel.swift */,
 			);
 			path = mapSwiftUI;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				89973780283BA9D000A4BB46 /* ContentView.swift in Sources */,
 				8997377E283BA9D000A4BB46 /* mapSwiftUIApp.swift in Sources */,
+				89759767283E2BD100DF9B50 /* contentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				DEVELOPMENT_TEAM = 898K727NUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +456,7 @@
 				DEVELOPMENT_TEAM = 898K727NUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
